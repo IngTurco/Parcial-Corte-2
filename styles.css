@@ -155,6 +155,18 @@ header {
     .product-card {
         width: calc(50% - 40px); /* 2 cards por fila */
     }
+
+    .footer-container {
+
+    display: flex;
+    flex-direction: column;
+    }
+
+    .footer-column {
+    flex: 1 1 100px;
+    margin: 10px;
+    padding: 0 20px;
+   }
 }
 
 @media screen and (max-width: 480px) {
